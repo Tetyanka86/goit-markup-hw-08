@@ -1,4 +1,4 @@
-.block{
+.hero{
     max-width: 480px;
     height: 400px;
     left: 0px;
@@ -13,31 +13,31 @@
     background-size: cover;
     background-position: center;
     padding: 118px 0;   
-    @include retina {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), 
-     url(/images/hero-img-desktop-2x.jpg); 
-  }
+    // @include retina {
+    // background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), 
+    //  url(/images/hero-img-desktop-2x.jpg); 
+  
     @media screen and (min-width: 768px){
         max-width: 768px;
         height: 400px; 
         top: 80px; 
         background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
-        url(/images/hero-img-desktop.jpg);
-        @include retina {
-          background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), 
-           url(/images/hero-img-tablet-2x.jpg); 
-        }
-      }
+        url(/images/hero-img-desktop.jpg);}
+        // @include retina {
+        //   background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), 
+        //    url(/images/hero-img-tablet-2x.jpg); 
+        // }
+      
     @media screen and (min-width: 1200px){
         max-width: 1600px;
         height: 600px;  
         top: 80px;
         padding: 200px 0;  
-        background-image: url(/images/hero-img-desktop.jpg);
-        @include retina {
-      background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), 
-       url(/images/hero-img-desktop-2x.jpg); 
-    }
+        
+    //     @include retina {
+    //   background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), 
+    //    url(/images/hero-img-desktop-2x.jpg); 
+    // }
   }
 }
 
