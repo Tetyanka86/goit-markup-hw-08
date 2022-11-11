@@ -1,0 +1,40 @@
+.segment{
+    @media screen and (min-width: 1200px){
+        padding-bottom: 0;
+    }
+}     
+
+.speciality{
+        display: flex;
+        flex-wrap: wrap; 
+        gap: 30px; 
+    }
+
+
+.specialty__box{
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.specialty__item{
+    max-width: 100%;
+    @media screen and (min-width: 768px){
+        width: calc((100% - 60px) / 2);}
+    
+        @media screen and (min-width: 1200px){
+            width: calc((100% - 120px) / 4);
+    }}
+
+.specialty__subtitle{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.specialty__text{
+    @include font(400, 14px, 1.71, 0.03em);
+    color: var(--primary-text-color);
+}
