@@ -22,7 +22,7 @@
         height: 400px; 
         top: 80px; 
         background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
-        url(/images/hero-img-tablet.jpg);
+        url(/images/hero-img-desktop.jpg);
         @include retina {
           background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), 
            url(/images/hero-img-tablet-2x.jpg); 
@@ -33,8 +33,7 @@
         height: 600px;  
         top: 80px;
         padding: 200px 0;  
-        background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
-        url(/images/hero-img-desktop.jpg);
+        background-image: url(/images/hero-img-desktop.jpg);
         @include retina {
       background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), 
        url(/images/hero-img-desktop-2x.jpg); 
