@@ -32,6 +32,9 @@
 .specialty__subtitle{
     margin-top: 30px;
     margin-bottom: 10px;
+    @media screen and (max-width: 768px){
+    text-align: center;
+}
 }
 
 .specialty__text{

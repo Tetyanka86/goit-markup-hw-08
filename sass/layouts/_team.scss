@@ -2,6 +2,10 @@
     background: #F5F4FA;
     
 }    
+.team-title{
+    @media screen and (max-width:1199px){
+        @include font(700, 28px, 1.18, 0.03em);
+       }}
 
 .account{
     display: flex;
