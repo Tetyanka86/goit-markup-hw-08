@@ -37,7 +37,7 @@
         url(../images/hero-desktop-1x.jpg);
         @include retina {
       background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), 
-      url(../images/hero-desktop-2x.jpg); 
+      url(../images/hero-desktop-2x.jpg);
     }
   }
 }
